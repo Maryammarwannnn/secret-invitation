@@ -33,3 +33,17 @@ acceptBtn.addEventListener("click", (e) => {
     finalScreen.style.display = "block";
 
 });
+const musicBtn =
+document.getElementById("musicBtn");
+
+const bgMusic =
+document.getElementById("bgMusic");
+
+musicBtn.addEventListener("click",()=>{
+
+    bgMusic.play();
+
+    musicBtn.innerHTML =
+    "🎷 Mission Active";
+
+});
